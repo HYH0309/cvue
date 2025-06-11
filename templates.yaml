@@ -1,0 +1,20 @@
+- alias: vue3-vite
+  repo: vuejs/create-vue
+  description: Vue 3 + Vite官方模板
+  is_default: true
+- alias: vue2
+  repo: vuejs/vue-cli
+  description: Vue 2官方CLI模板
+  is_default: false
+- alias: nuxt3
+  repo: nuxt/starter
+  description: Nuxt 3入门模板
+  is_default: false
+- alias: vue3-ts
+  repo: vuejs-templates/webpack-simple
+  description: Vue 3 + TypeScript模板
+  is_default: false
+- alias: vue-element
+  repo: PanJiaChen/vue-element-admin
+  description: 基于Element UI的后台管理模板
+  is_default: false

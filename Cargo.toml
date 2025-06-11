@@ -1,0 +1,31 @@
+[package]
+name = "cvue"
+version = "0.1.0"
+edition = "2021"
+authors = ["HYH"]
+description = "从GitHub克隆和管理Vue模板的CLI工具"
+repository = "https://github.com/HYH0309/cvue"
+license = "MIT"
+keywords = ["Vue", "CLI", "Template", "GitHub"]
+categories = ["command-line-utilities", "development-tools"]
+readme = "README.md"
+
+[[bin]]
+name = "cvue"
+path = "src/main.rs"
+
+[dependencies]
+dialoguer = { version = "0.11.0" }
+clap = { version = "4.0.2", features = ["derive"] }
+reqwest = "0.12.20"
+serde = { version = "1.0.156", features = ["derive"] }
+serde_json = "1.0.91"
+serde_yaml = "0.9.34"
+thiserror = "2.0.12"
+indicatif = "0.17.11"
+url = "2.5.4"
+regex = "1.11.1"
+colored = "3.0.0"
+tabled = "0.20.0"
+terminal_size = "0.4.2"
+unicode-width = "0.2.1"
